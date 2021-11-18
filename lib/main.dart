@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main() {
+  // runApp 은 flutter 에서 최상위에 위치한 widget 이다
+  // runApp 안에 실행하고자 하는 widget 을 넣어줘서 실행한다
+  // myApp 은 스크린 레이아웃을 최초로 빌드하는 역할을 담당한다
+  // flutter 에서 함수는 소문자로 시작, 클래스는 대문자로 시작 - 카멜 스타일을 따릅니다
   runApp(const MyApp());
 }
 
